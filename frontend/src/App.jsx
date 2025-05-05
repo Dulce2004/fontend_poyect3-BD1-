@@ -1,10 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+//import reactLogo from './assets/react.svg'
+import Report1 from './components/Report1';
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  return (
+    <div className="App">
+      <Report1 />
+    </div>
+  );
+  /*const [count, setCount] = useState(0)
 
   return (
     <>
@@ -29,7 +35,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  )*/
 }
 
 export default App
